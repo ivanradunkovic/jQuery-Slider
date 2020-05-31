@@ -1,54 +1,72 @@
 body {
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
-    color: #606060;
+  color: #606060;
 }
-  
+
 h1 {
-    color: #15477a;
-    font-size: 1.85em;
-    margin: 0;
+  color: #15477a;
+  font-size: 1.85em;
+  margin: 0;
 }
 
 .wrapper {
-    width: 950px;
-    margin: 0 auto;
+  width: 950px;
+  margin: 0 auto;
 }
-  
+
 .text-container {
-    width: 300px;
-    float: left;
+  width: 300px;
+  float: left;
 }
-  
+
 .slider {
-    width: 600px;
-    float: left;
-    margin-right: 20px;
+  width: 600px;
+  float: left;
+  margin-right: 20px;
 }
 
 .slider ul {
-    list-style: none;
-    display: flex;
-    float: right;
-    margin: 0;
+  list-style: none;
+  display: flex;
+  float: right;
+  margin: 0;
 }
 
 .slider ul li {
-    display: inline;
+  display: inline;
 }
 
 .slider ul li img {
-    margin: 0 0 5px 10px;
-    padding: 0;
-    height: 200px;
-    border-radius: 5px;
-    box-sizing: border-box;
+  margin: 0 0 5px 10px;
+  padding: 0;
+  height: 200px;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .slider .second-row {
-    margin-right: 150px;
-    flex-direction: row;
+  margin-right: 150px;
+  flex-direction: row;
+}
+
+.arrows {
+  float: right;
+}
+
+.arrows .previous, .arrows .next {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  color: #dddddd;
+  text-align: center;
+  margin: 0 0 10px 80px;
+  padding: 20px 25px;
+}
+
+.arrows .previous:hover, .arrows .next:hover {
+  border-color: #15477a;
+  color: #15477a;
 }
