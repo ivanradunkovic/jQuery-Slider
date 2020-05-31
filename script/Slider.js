@@ -23,7 +23,7 @@ function rowOne () {
     var picture = document.createElement("li");
     picture.classList.add("picture");
     picture.innerHTML = '<img src="' + slideOne[i] + '"/>';
-    slideOne.appendChild(picture);
+    firstSlide.appendChild(picture);
   }
 }
 
@@ -32,6 +32,6 @@ function rowTwo () {
     var picture = document.createElement("li");
     picture.classList.add("picture");
     picture.innerHTML = '<img src="' + slideTwo[i] + '"/>';
-    slideTwo.appendChild(picture);
+    secondSlide.appendChild(picture);
   }
 }
