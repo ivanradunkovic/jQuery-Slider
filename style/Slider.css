@@ -7,6 +7,13 @@ p {
   color: #606060;
 }
 
+header {
+  background-color: #dddddd;
+  text-align: center;
+  height: 20px;
+  margin-top: -20px;
+}
+
 h1 {
   color: #15477a;
   font-size: 1.85em;
@@ -54,6 +61,7 @@ h1 {
 }
 
 .arrows {
+  padding-top: 7px;
   float: right;
 }
 

@@ -35,3 +35,4 @@ function rowTwo () {
     secondSlide.appendChild(picture);
   }
 }
+
