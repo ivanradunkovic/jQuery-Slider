@@ -53,3 +53,16 @@ function moveLeftSecond () {
 function moveRightSecond () {
   $("ul.second > li:first-child").remove().appendTo(".second");
 }
+
+$(".previous").click(function(){
+  moveLeftFirst();
+  moveLeftSecond();
+});
+
+$(".next").click(function(){
+  moveRightFirst();
+  moveRightSecond();
+});
+
+rowOne();
+rowTwo();
