@@ -36,3 +36,20 @@ function rowTwo () {
   }
 }
 
+// Scrooling pictures in infinite carusel. Left or right
+
+function moveLeftFirst () {
+  $("ul.first > li:last-child").remove().prependTo(".first");
+}
+
+function moveRightFirst () {
+  $("ul.first > li:first-child").remove().appendTo(".first");
+}
+
+function moveLeftSecond () {
+  $("ul.second > li:last-child").remove().prependTo(".second");
+}
+
+function moveRightSecond () {
+  $("ul.second > li:first-child").remove().appendTo(".second");
+}
