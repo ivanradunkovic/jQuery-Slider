@@ -53,6 +53,8 @@ h1 {
 
 .slider ul li {
   display: inline;
+  animation: zoomIn;
+  animation-duration: 1.5s;
 }
 
 .slider ul li img {
@@ -86,3 +88,4 @@ h1 {
   border-color: #15477a;
   color: #15477a;
 }
+
