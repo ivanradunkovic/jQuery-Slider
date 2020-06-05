@@ -3,10 +3,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-p {
-  color: #606060;
-}
-
 header {
   background-color: #dddddd;
   text-align: center;
@@ -33,11 +29,6 @@ h1 {
   width: 1000px;
   margin: 0 auto;
   padding-top: 200px;
-}
-
-.text-container {
-  width: 300px;
-  float: left;
 }
 
 .slider {
