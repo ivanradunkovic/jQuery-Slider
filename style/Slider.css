@@ -77,6 +77,7 @@ h1 {
   padding: 20px 25px; 
   flex-direction: column;
   display: flex;
+  background: white;
 }
 
 .arrows .previous:hover, .arrows .next:hover {
