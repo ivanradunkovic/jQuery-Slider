@@ -1,27 +1,14 @@
-$font-stack: 'Open Sans', sans-serif
-$color-blue: #15477a
-$color-grey: rgb(221,221,221)
-$color-text: #606060
-
 body
   margin: 0
-  font-family: $font-stack
+  font-family: "Open Sans", sans-serif
 
-p
-  color: $color-text
-
-h1
-  color: $color-blue
-  font-size: 1.85em
-  margin: 0
-
-header 
+header
   background-color: #dddddd
   text-align: center
   position: fixed
   width: 100%
 
-footer 
+footer
   background-color: #dddddd
   position: fixed
   left: 0
@@ -29,59 +16,57 @@ footer
   width: 100%
   text-align: center
 
+h1
+  color: #15477a
+  font-size: 1.85em
+  margin: 0
+
 .wrapper
   width: 1000px
   margin: 0 auto
   padding-top: 200px
-
-.text-container
-  width: 300px
-  float: left
 
 .slider
   width: 600px
   float: left
   margin-right: 20px
 
-ul
+  ul
     list-style: none
     display: flex
     float: right
     margin: 0
 
-li
-    display: inline
-    animation: zoomIn
-    animation-duration: 1.5s
+    li
+      display: inline
+      animation: zoomIn
+      animation-duration: 1.5s
 
-img
-    margin: 0 0 5px 10px
-    padding: 0
-    height: 200px
-    border-radius: 5px
-    box-sizing: border-box
+      img
+        margin: 0 0 5px 10px
+        padding: 0
+        height: 200px
+        border-radius: 5px
+        box-sizing: border-box
 
-.second-row
+  .second-row
     margin-right: 150px
     flex-direction: row
 
 .arrows
-  float: right
   padding-top: 7px
+  float: right
 
-.previous
-    border: 1px solid $color-grey
+  .previous, .next
+    border: 1px solid #dddddd
     border-radius: 5px
-    color: $color-grey
+    color: #dddddd
     text-align: center
-    margin: 0 0 10px 80px
+    margin: 0 0 10px 5px
     padding: 20px 25px
     flex-direction: column
     display: flex
 
-&:hover
-    border-color: $color-blue
-    color: $color-blue
-
-.next
-    @extend .previous
+  .previous:hover, .next:hover
+    border-color: #15477a
+    color: #15477a
