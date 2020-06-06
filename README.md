@@ -7,7 +7,7 @@ Create image slider using HTML, CSS, SASS and jQuery.
 Job assigment for Factory "Plava tvornica" <a href="https://factory.hr">Factory.hr</a>
 
 ## Preview
-![img_slider](https://user-images.githubusercontent.com/44583106/83519264-f301dc80-a4db-11ea-9e1b-f7b889568030.gif)
+![img_slider](https://user-images.githubusercontent.com/44583106/83939141-c0f1c280-a7da-11ea-90a9-1b869c576583.gif)
 
 ### How to run
 - Clone or download project
