@@ -1,29 +1,21 @@
-"use strict";
-
 // Two slides that will contain pictures from assets
 
 var slideOne = ["assets/slider-image-7.jpg", "assets/slider-image-6.jpg", "assets/slider-image-9.jpg", "assets/slider-image-8.jpg", "assets/slider-image-5.jpg"];
 var slideTwo = ["assets/slider-image-4.jpg", "assets/slider-image-1.jpg", "assets/slider-image-2.jpg", "assets/slider-image-3.jpg"];
-var firstSlide = document.querySelector(".first");
-var secondSlide = document.querySelector(".second");
 
 function rowOne() {
-  for (var i = 0; i < slideOne.length; i++) {
-    var picture = document.createElement("li");
-    picture.classList.add("picture");
-    picture.innerHTML = '<img src="' + slideOne[i] + '"/>';
-    firstSlide.appendChild(picture);
-  }
+
+    $( slideOne ).each(function( key, value ) {
+        $('.first').append($('<li><img src="' + value + '"/></li>'));
+      });
 }
 
 function rowTwo() {
-  for (var i = 0; i < slideTwo.length; i++) {
-    var picture = document.createElement("li");
-    picture.classList.add("picture");
-    picture.innerHTML = '<img src="' + slideTwo[i] + '"/>';
-    secondSlide.appendChild(picture);
-  }
+    $( slideTwo ).each(function( key, value ) {
+      $('.second').append($('<li><img src="' + value + '"/></li>'));
+      });
 } 
+
 
 // Scrooling pictures in infinite carusel. Left or right
 
